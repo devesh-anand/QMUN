@@ -18,7 +18,7 @@ import ronniCantadoreImage from '@/images/avatars/ronni-cantadore.jpg'
 import stevenMchailImage from '@/images/avatars/steven-mchail.jpg'
 import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
 
-import Committees from '@/components/committee'
+import Committees from '@/components/Committee'
 
 const days = [
   {
