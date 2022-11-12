@@ -18,6 +18,8 @@ import ronniCantadoreImage from '@/images/avatars/ronni-cantadore.jpg'
 import stevenMchailImage from '@/images/avatars/steven-mchail.jpg'
 import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
 
+import Committees from '@/components/committee'
+
 const days = [
   {
     name: 'International',
@@ -241,7 +243,7 @@ export function Speakers() {
                 className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 [&:not(:focus-visible)]:focus:outline-none"
                 unmount={false}
               >
-                {day.speakers.map((speaker, speakerIndex) => (
+                {/* {day.speakers.map((speaker, speakerIndex) => (
                   <div key={speakerIndex}>
                     <div className="group relative h-[17.5rem] transform overflow-hidden rounded-4xl">
                       <div
@@ -274,7 +276,9 @@ export function Speakers() {
                       {speaker.role}
                     </p>
                   </div>
-                ))}
+                ))} */}
+                <Committees />
+                {/* <p>Here comes the sun.</p> */}
               </Tab.Panel>
             ))}
           </Tab.Panels>

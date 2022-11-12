@@ -17,7 +17,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=DM+Sans:wght@400;500;700&display=swap"
         />
       </Head>
-      <Header />
+      {/* <Header /> */}
       <body>
         <Main />
         <NextScript />

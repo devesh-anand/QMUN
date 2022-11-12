@@ -1,13 +1,14 @@
 import Image from 'next/image'
-
+import { Header } from '@/components/Header'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background.jpg'
 
 export function Hero() {
   return (
-    <div className="relative pt-10 pb-20 sm:py-24">
-      <div className="absolute inset-x-0 -top-48 -bottom-14 overflow-hidden bg-indigo-50">
+    <div className="body-bg-custom relative pb-20 sm:pb-24">
+      <Header />
+      <div className="absolute inset-x-0 -top-48 -bottom-14 overflow-hidden ">
         {/* <Image
           className="absolute top-0 left-0 translate-y-[-10%] translate-x-[-55%] -scale-x-100 sm:left-1/2 sm:translate-y-[-6%] sm:translate-x-[-98%] lg:translate-x-[-106%] xl:translate-x-[-122%]"
           src={backgroundImage}
@@ -22,11 +23,11 @@ export function Hero() {
       </div>
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
-          <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
+          <h1 className="text-center font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
             <span className="sr-only">Quint Youth Summit - </span>Quint Youth
             Summit
           </h1>
-          <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
+          <div className="mt-6 space-y-6 text-center font-display text-2xl tracking-tight text-blue-900">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
               quaerat impedit cupiditate quo non eligendi? Voluptatibus sit

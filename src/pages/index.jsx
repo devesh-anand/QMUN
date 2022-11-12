@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>DeceptiConf - A community-driven design conference</title>
+        <title>Quintessence Youth Summit</title>
         <meta
           name="description"
           content="Quint Youth Summit Consists of 3 committes: UNGA, Lok Sabha and AIPPM."
