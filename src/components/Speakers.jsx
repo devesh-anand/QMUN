@@ -24,111 +24,74 @@ const days = [
   {
     name: 'International',
     date: 'UNGA',
-    dateTime: '2022-12-16',
-    speakers: [
-      {
-        name: 'Steven McHail',
-        role: 'Designer at Globex Corporation',
-        image: stevenMchailImage,
-      },
-      {
-        name: 'Jaquelin Isch',
-        role: 'UX Design at InGen',
-        image: jaquelinIschImage,
-      },
-      {
-        name: 'Dianne Guilianelli',
-        role: 'General Manager at Initech',
-        image: dianneGuilianelliImage,
-      },
-      {
-        name: 'Ronni Cantadore',
-        role: 'Design Engineer at Weyland-Yutani',
-        image: ronniCantadoreImage,
-      },
-      {
-        name: 'Erhart Cockrin',
-        role: 'Product Lead at Cyberdyne Systems',
-        image: erhartCockrinImage,
-      },
-      {
-        name: 'Parker Johnson',
-        role: 'UI Designer at MomCorp',
-        image: parkerJohnsonImage,
-      },
-    ],
+    dateTime: '2022-12-17',
   },
   {
     name: 'Indian',
     date: 'Lok Sabha',
-    dateTime: '2022-12-16',
-    speakers: [
-      {
-        name: 'Steven McHail',
-        role: 'Designer at Globex Corporation',
-        image: stevenMchailImage,
-      },
-      {
-        name: 'Jaquelin Isch',
-        role: 'UX Design at InGen',
-        image: jaquelinIschImage,
-      },
-      {
-        name: 'Dianne Guilianelli',
-        role: 'General Manager at Initech',
-        image: dianneGuilianelliImage,
-      },
-      {
-        name: 'Ronni Cantadore',
-        role: 'Design Engineer at Weyland-Yutani',
-        image: ronniCantadoreImage,
-      },
-      {
-        name: 'Erhart Cockrin',
-        role: 'Product Lead at Cyberdyne Systems',
-        image: erhartCockrinImage,
-      },
-      {
-        name: 'Parker Johnson',
-        role: 'UI Designer at MomCorp',
-        image: parkerJohnsonImage,
-      },
-    ],
+    dateTime: '2022-12-17',
   },
   {
     name: 'Indian',
     date: 'AIPPM',
     dateTime: '2022-12-17',
-    speakers: [
+  },
+]
+
+let data = [
+  {
+    committee: 'United Nations General Assembly',
+    agenda: 'TBD',
+    url: '/unga',
+    eb: [
       {
-        name: 'Damaris Kimura',
-        role: 'Senior Engineer at OCP',
-        image: damarisKimuraImage,
+        name: 'Mr. Neel Taneja',
+        role: 'Chair',
+        imageUrl: '/eb/neel-taneja.jpg',
       },
       {
-        name: 'Ibrahim Frasch',
-        role: 'Programmer at Umbrella Corp',
-        image: ibrahimFraschImage,
+        name: 'Mr. Siddhant Magon',
+        role: 'Vice Chair',
+        imageUrl: '/eb/siddhant-magon.jpeg',
+      },
+    ],
+  },
+  {
+    committee: 'Lok Sabha',
+    agenda: 'TBD',
+    url: '/lok-sabha',
+    eb: [
+      {
+        name: 'Ms. Hitanshi Goel',
+        role: 'Chair',
+        imageUrl: '/eb/hitanshi-goel.jpeg',
       },
       {
-        name: 'Cathlene Burrage',
-        role: 'Frontend Developer at Buy n Large',
-        image: cathleneBurrageImage,
+        name: 'Ms. Rashmi Kayat',
+        role: 'Vice Chair',
+        imageUrl: '/eb/rashmi-kayat.jpeg',
+      },
+    ],
+  },
+  {
+    committee: 'All India Political Parties Meet',
+    agenda: 'TBD',
+    url: '/aippm',
+    eb: [
+      {
+        name: 'Mr. Shivansh Srivastava',
+        role: 'Moderator',
+        imageUrl: '/eb/shivansh-srivastava.jpg',
       },
       {
-        name: 'Rinaldo Beynon',
-        role: 'Data Scientist at Rekall',
-        image: rinaldoBeynonImage,
+        name: 'Mr. Aditya Sharma',
+        role: 'Co-Moderator',
+        imageUrl: './eb/aditya-sharma.jpg',
       },
       {
-        name: 'Waylon Hyden',
-        role: 'DevOps at RDA Corporation',
-        image: waylonHydenImage,
-      },
-      {
-        name: 'Giordano Sagucio',
-        role: 'Game Developer at Soylent Corp',
-        image: giordanoSagucioImage,
+        name: 'Mr. Manish Sharma',
+        role: 'Political Analyst',
+        imageUrl: '/eb/manish-sharma.jpg',
       },
     ],
   },
@@ -237,47 +200,14 @@ export function Speakers() {
             </Tab.List>
           </div>
           <Tab.Panels className="lg:col-span-3">
-            {days.map((day) => (
+            {days.map((day, i) => (
               <Tab.Panel
                 key={day.dateTime}
-                className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 [&:not(:focus-visible)]:focus:outline-none"
+                className="[&:not(:focus-visible)]:focus:outline-none"
                 unmount={false}
               >
-                {/* {day.speakers.map((speaker, speakerIndex) => (
-                  <div key={speakerIndex}>
-                    <div className="group relative h-[17.5rem] transform overflow-hidden rounded-4xl">
-                      <div
-                        className={clsx(
-                          'absolute top-0 left-0 right-4 bottom-6 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',
-                          [
-                            'border-blue-300',
-                            'border-indigo-300',
-                            'border-sky-300',
-                          ][speakerIndex % 3]
-                        )}
-                      />
-                      <div
-                        className="absolute inset-0 bg-indigo-50"
-                        style={{ clipPath: `url(#${id}-${speakerIndex % 3})` }}
-                      >
-                        <Image
-                          className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
-                          src={speaker.image}
-                          alt=""
-                          priority
-                          sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
-                        />
-                      </div>
-                    </div>
-                    <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">
-                      {speaker.name}
-                    </h3>
-                    <p className="mt-1 text-base tracking-tight text-slate-500">
-                      {speaker.role}
-                    </p>
-                  </div>
-                ))} */}
-                <Committees />
+                <Committees url="/lok-sabha" data={data[i]} />
+
                 {/* <p>Here comes the sun.</p> */}
               </Tab.Panel>
             ))}

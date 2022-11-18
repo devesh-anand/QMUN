@@ -245,13 +245,10 @@ export function Schedule() {
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-            Our three day schedule is jam-packed with brilliant, creative, evil
-            geniuses.
+            Quint Youth Summit is a 2-day event.
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            The worst people in our industry giving the best talks you’ve ever
-            seen. Nothing will be recorded and every attendee has to sign an NDA
-            to watch the talks.
+            Here&apos;s the schedule for the two days (17th and 18th December):
           </p>
         </div>
       </Container>
@@ -271,6 +268,7 @@ export function Schedule() {
         <Container className="relative">
           <ScheduleTabbed />
           <ScheduleStatic />
+          {/* <h1 className="text-2xl text-blue-600">To be updated soon</h1> */}
         </Container>
       </div>
     </section>
