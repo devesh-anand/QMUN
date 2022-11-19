@@ -4,7 +4,7 @@ import { Footer } from '@/components/Footer'
 
 export default function Document() {
   return (
-    <Html className="bg-white antialiased" lang="en">
+    <Html className="bg-[#FFF6E5] antialiased" lang="en">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

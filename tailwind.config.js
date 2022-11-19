@@ -31,6 +31,10 @@ module.exports = {
       maxWidth: {
         '2xl': '40rem',
       },
+      colors: {
+        'pr-text': '#7C0408',
+        'sec-text': '#b53539',
+      },
     },
   },
   plugins: [],

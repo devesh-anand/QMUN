@@ -431,7 +431,7 @@ function unga() {
       <Header />
       <Ungatable
         data={portfolios}
-        heading="Lok Sabha Matrix"
+        heading="UNGA Matrix"
         c1="S.no."
         c2="Country"
       />

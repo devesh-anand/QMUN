@@ -145,11 +145,11 @@ export function Speakers() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
             id="speakers-title"
-            className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
+            className="font-display text-4xl font-medium tracking-tighter text-pr-text sm:text-5xl"
           >
             Committees
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
+          <p className="mt-4 font-display text-2xl tracking-tight text-rose-900">
             Quint Youth Summit comprises of 3 committees this year. The details
             are mentioned below:
           </p>
@@ -169,7 +169,7 @@ export function Speakers() {
                       className={clsx(
                         'absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block',
                         dayIndex === selectedIndex
-                          ? 'fill-blue-600 stroke-blue-600'
+                          ? 'fill-rose-600 stroke-rose-600'
                           : 'fill-transparent stroke-slate-400'
                       )}
                     />
@@ -178,7 +178,7 @@ export function Speakers() {
                         className={clsx(
                           'font-mono text-sm',
                           dayIndex === selectedIndex
-                            ? 'text-blue-600'
+                            ? 'text-rose-600'
                             : 'text-slate-500'
                         )}
                       >
@@ -189,7 +189,7 @@ export function Speakers() {
                       </div>
                       <time
                         dateTime={day.dateTime}
-                        className="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900"
+                        className="mt-1.5 block text-2xl font-semibold tracking-tight text-rose-900"
                       >
                         {day.date}
                       </time>

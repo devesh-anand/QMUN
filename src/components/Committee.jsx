@@ -23,10 +23,10 @@ export default function Committee({ data }) {
   return (
     <div className="flex flex-col items-center">
       <div>
-        <h2 className="text-center font-mono text-4xl font-semibold text-blue-600">
+        <h2 className="text-center font-mono text-4xl font-semibold text-pr-text">
           {data.committee}
         </h2>
-        <h3 className="py-2 text-center text-2xl font-semibold text-blue-500">
+        <h3 className="py-2 text-center text-2xl font-semibold text-sec-text">
           Agenda: {data.agenda}
         </h3>
       </div>
@@ -34,7 +34,7 @@ export default function Committee({ data }) {
         <Link href={data.url} className="flex py-4">
           <button
             type="button"
-            className="inline-flex items-center rounded-md border border-transparent bg-blue-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            className="inline-flex items-center rounded-md border border-transparent bg-sec-text px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-pr-text focus:outline-none focus:ring-2 focus:ring-pr-text focus:ring-offset-2"
           >
             {data.committee}&nbsp;Matrix&nbsp;
             <svg
@@ -55,7 +55,7 @@ export default function Committee({ data }) {
         </Link>
       </div>
       <div className="flex flex-col items-center">
-        <h3 className="py-4 text-xl font-semibold text-blue-500">
+        <h3 className="py-4 text-xl font-semibold text-sec-text">
           Executive Board:
         </h3>
         <ul role="list" className="mx-auto flex">
@@ -70,7 +70,7 @@ export default function Committee({ data }) {
                 <div className="space-y-2">
                   <div className="text-center text-xs font-medium lg:text-sm">
                     <h3 className="">{person.name}</h3>
-                    <p className="text-indigo-600">{person.role}</p>
+                    <p className="text-pr-text">{person.role}</p>
                   </div>
                 </div>
               </div>

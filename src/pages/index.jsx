@@ -1,7 +1,4 @@
 import Head from 'next/head'
-
-import { Footer } from '@/components/Footer'
-import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Newsletter } from '@/components/Newsletter'
 import { Schedule } from '@/components/Schedule'
@@ -18,7 +15,7 @@ export default function Home() {
           content="Quint Youth Summit Consists of 3 committes: UNGA, Lok Sabha and AIPPM."
         />
       </Head>
-      <main>
+      <main className="bg-[#FFF6E5]">
         <Hero />
         <Speakers />
         <Schedule />

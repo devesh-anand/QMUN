@@ -11,7 +11,9 @@ export function Footer() {
             Copyright &copy; {new Date().getFullYear()} Quintessence. All rights
             reserved.
           </p>
-          <p className="text-base text-slate-500">Created by Devesh Anand</p>
+          <p className="text-base text-slate-500">
+            Created by <a href="https://deveshanand.com/">Devesh Anand</a>
+          </p>
         </div>
       </Container>
     </footer>

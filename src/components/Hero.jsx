@@ -14,11 +14,11 @@ export function Hero() {
       </div>
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
-          <h1 className="text-center font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
+          <h1 className="text-center font-display text-5xl font-bold tracking-tighter text-pr-text sm:text-7xl">
             <span className="sr-only">Quint Youth Summit - </span>Quint Youth
             Summit
           </h1>
-          <div className="mt-6 space-y-6 text-center font-display text-2xl tracking-tight text-blue-900">
+          <div className="mt-6 space-y-6 text-center font-display text-2xl tracking-tight text-gray-900">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
               quaerat impedit cupiditate quo non eligendi? Voluptatibus sit
@@ -45,8 +45,8 @@ export function Hero() {
                 // ['Location', 'Los Angeles'],
               ].map(([name, value]) => (
                 <div key={name}>
-                  <dt className="font-mono text-sm text-blue-600">{name}</dt>
-                  <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-blue-900">
+                  <dt className="font-mono text-sm text-red-900">{name}</dt>
+                  <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-pr-text">
                     {value}
                   </dd>
                 </div>
