@@ -1,6 +1,7 @@
 import React from 'react'
 import { Header } from '@/components/Header'
 import Matrix from '@/components/Matrix'
+import { Footer } from '@/components/Footer'
 
 const portfolios = [
   {
@@ -436,6 +437,7 @@ const LokSabha = () => {
         c2="Name"
         c3="Party"
       />
+      <Footer />
     </div>
   )
 }

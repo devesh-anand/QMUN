@@ -245,11 +245,11 @@ export function Schedule() {
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl font-medium tracking-tighter text-pr-text sm:text-5xl">
-            Quint Youth Summit is a 2-day event.
-          </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-sec-text">
             Here&apos;s the schedule for the two days (17th and 18th December):
-          </p>
+          </h2>
+          {/* <p className="mt-4 font-display text-2xl tracking-tight text-sec-text">
+            Quint Youth Summit is a 2-day event.
+          </p> */}
         </div>
       </Container>
       <div className="relative mt-14 sm:mt-24">
@@ -258,8 +258,11 @@ export function Schedule() {
           <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" />
         </div>
         <Container className="relative">
-          <ScheduleTabbed />
-          <ScheduleStatic />
+          {/* <ScheduleTabbed />
+          <ScheduleStatic /> */}
+          <div className="-mt-12 text-2xl font-semibold text-sec-text">
+            Will be updated soon.
+          </div>
         </Container>
       </div>
     </section>

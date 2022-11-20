@@ -1,6 +1,7 @@
 import React from 'react'
 import { Header } from '@/components/Header'
 import Ungatable from '@/components/Ungatable'
+import { Footer } from '@/components/Footer'
 
 const portfolios = [
   {
@@ -435,6 +436,7 @@ function unga() {
         c1="S.no."
         c2="Country"
       />
+      <Footer />
     </div>
   )
 }

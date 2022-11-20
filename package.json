@@ -11,12 +11,16 @@
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
     "@headlessui/react": "^1.7.2",
+    "@vercel/og": "^0.0.20",
     "clsx": "^1.2.1",
     "focus-visible": "^5.2.0",
     "next": "13.0.2",
+    "p5": "^1.5.0",
     "postcss-focus-visible": "^6.0.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "three": "^0.146.0",
+    "vanta": "^0.5.24"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

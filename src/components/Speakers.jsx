@@ -54,6 +54,11 @@ let data = [
         role: 'Vice Chair',
         imageUrl: '/eb/siddhant-magon.jpeg',
       },
+      {
+        name: 'Mr. Vanshaj Arora',
+        role: 'Rapporteur',
+        imageUrl: '/eb/vanshaj-arora.jpeg',
+      },
     ],
   },
   {
@@ -70,6 +75,11 @@ let data = [
         name: 'Ms. Rashmi Kayat',
         role: 'Vice Chair',
         imageUrl: '/eb/rashmi-kayat.jpeg',
+      },
+      {
+        name: 'Mr. Hardik Jindal',
+        role: 'Political Advisor',
+        imageUrl: '/eb/hardik-jindal.jpg',
       },
     ],
   },
@@ -164,7 +174,7 @@ export function Speakers() {
             <Tab.List className="grid auto-cols-auto grid-flow-col justify-start gap-x-8 gap-y-10 whitespace-nowrap px-4 sm:mx-auto sm:max-w-2xl sm:grid-cols-3 sm:px-0 sm:text-center lg:grid-flow-row lg:grid-cols-1 lg:text-left">
               {({ selectedIndex }) =>
                 days.map((day, dayIndex) => (
-                  <div key={day.dateTime} className="relative lg:pl-8">
+                  <div key={day.date} className="relative lg:pl-8">
                     <DiamondIcon
                       className={clsx(
                         'absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block',
@@ -202,7 +212,7 @@ export function Speakers() {
           <Tab.Panels className="lg:col-span-3">
             {days.map((day, i) => (
               <Tab.Panel
-                key={day.dateTime}
+                key={day.date}
                 className="[&:not(:focus-visible)]:focus:outline-none"
                 unmount={false}
               >
