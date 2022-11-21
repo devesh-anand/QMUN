@@ -1,24 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 
-let people = [
-  {
-    name: 'Leslie Alexander',
-    email: 'leslie.alexander@example.com',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  {
-    name: 'Leslie Alexander',
-    email: 'leslie.alexander@example.com',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  // More people...
-]
-
 export default function Committee({ data }) {
   return (
     <div className="flex flex-col items-center">
@@ -27,7 +9,7 @@ export default function Committee({ data }) {
           {data.committee}
         </h2>
         <h3 className="py-2 text-center text-2xl font-semibold text-sec-text">
-          Agenda: {data.agenda}
+          <span className="text-pr-text">Agenda:</span> {data.agenda}
         </h3>
       </div>
       <div>

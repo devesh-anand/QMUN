@@ -1,4 +1,3 @@
-import { useState, useEffect, useRef } from 'react'
 import { Header } from '@/components/Header'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
@@ -7,7 +6,7 @@ export default function Hero() {
   return (
     <div>
       <Header />
-      <div className="absolute inset-x-0 -top-48 -bottom-14 overflow-hidden ">
+      <div className="relative inset-x-0 -top-48 -bottom-14 overflow-hidden ">
         <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white" />
       </div>
       <Container className="relative">
@@ -25,7 +24,7 @@ export default function Hero() {
               <a href="https://www.instagram.com/quintessence_adgitm/">
                 <span className="text-pr-text">Quintessence</span> -{' '}
                 <span className="text-pr-text">
-                  The Offical debating Society of ADGITM.
+                  The Offical Debating Society of ADGITM.
                 </span>
               </a>
             </p>

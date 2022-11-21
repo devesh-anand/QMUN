@@ -2,6 +2,7 @@ import React from 'react'
 import { Header } from '@/components/Header'
 import Matrix from '@/components/Matrix'
 import { Footer } from '@/components/Footer'
+import Navbar from '@/components/Navbar'
 
 const portfolios = [
   {
@@ -429,6 +430,7 @@ const portfolios = [
 const LokSabha = () => {
   return (
     <div>
+      <Navbar />
       <Header />
       <Matrix
         data={portfolios}

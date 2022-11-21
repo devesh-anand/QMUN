@@ -7,7 +7,7 @@ import Hero from '@/components/Hero'
 import { Schedule } from '@/components/Schedule'
 import { Speakers } from '@/components/Speakers'
 import { Sponsors } from '@/components/Sponsors'
-
+import Navbar from '@/components/Navbar'
 import * as THREE from 'three'
 import FOG from 'vanta/dist/vanta.fog.min'
 
@@ -57,6 +57,7 @@ export default function Home() {
         <meta property="og:image" content="/og.png" />
       </Head>
       <main className="bg-[#FFF6E5]" ref={myRef}>
+        <Navbar />
         <Hero />
         <Speakers />
         <Schedule />

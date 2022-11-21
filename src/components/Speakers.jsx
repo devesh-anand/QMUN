@@ -5,25 +5,13 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
-import cathleneBurrageImage from '@/images/avatars/cathlene-burrage.jpg'
-import damarisKimuraImage from '@/images/avatars/damaris-kimura.jpg'
-import dianneGuilianelliImage from '@/images/avatars/dianne-guilianelli.jpg'
-import erhartCockrinImage from '@/images/avatars/erhart-cockrin.jpg'
-import giordanoSagucioImage from '@/images/avatars/giordano-sagucio.jpg'
-import ibrahimFraschImage from '@/images/avatars/ibrahim-frasch.jpg'
-import jaquelinIschImage from '@/images/avatars/jaquelin-isch.jpg'
-import parkerJohnsonImage from '@/images/avatars/parker-johnson.jpg'
-import rinaldoBeynonImage from '@/images/avatars/rinaldo-beynon.jpg'
-import ronniCantadoreImage from '@/images/avatars/ronni-cantadore.jpg'
-import stevenMchailImage from '@/images/avatars/steven-mchail.jpg'
-import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
 
 import Committees from '@/components/Committee'
 
 const days = [
   {
-    name: 'International',
-    date: 'UNGA',
+    name: 'Indian',
+    date: 'AIPPM',
     dateTime: '2022-12-17',
   },
   {
@@ -32,60 +20,16 @@ const days = [
     dateTime: '2022-12-17',
   },
   {
-    name: 'Indian',
-    date: 'AIPPM',
+    name: 'International',
+    date: 'UNGA',
     dateTime: '2022-12-17',
   },
 ]
 
 let data = [
   {
-    committee: 'United Nations General Assembly',
-    agenda: 'TBD',
-    url: '/unga',
-    eb: [
-      {
-        name: 'Mr. Neel Taneja',
-        role: 'Chair',
-        imageUrl: '/eb/neel-taneja.jpg',
-      },
-      {
-        name: 'Mr. Siddhant Magon',
-        role: 'Vice Chair',
-        imageUrl: '/eb/siddhant-magon.jpeg',
-      },
-      {
-        name: 'Mr. Vanshaj Arora',
-        role: 'Rapporteur',
-        imageUrl: '/eb/vanshaj-arora.jpeg',
-      },
-    ],
-  },
-  {
-    committee: 'Lok Sabha',
-    agenda: 'TBD',
-    url: '/lok-sabha',
-    eb: [
-      {
-        name: 'Ms. Hitanshi Goel',
-        role: 'Chair',
-        imageUrl: '/eb/hitanshi-goel.jpeg',
-      },
-      {
-        name: 'Ms. Rashmi Kayat',
-        role: 'Vice Chair',
-        imageUrl: '/eb/rashmi-kayat.jpeg',
-      },
-      {
-        name: 'Mr. Hardik Jindal',
-        role: 'Political Advisor',
-        imageUrl: '/eb/hardik-jindal.jpg',
-      },
-    ],
-  },
-  {
     committee: 'All India Political Parties Meet',
-    agenda: 'TBD',
+    agenda: 'Deliberation upon Uniform Civil Code in light of recent events.',
     url: '/aippm',
     eb: [
       {
@@ -102,6 +46,51 @@ let data = [
         name: 'Mr. Manish Sharma',
         role: 'Political Analyst',
         imageUrl: '/eb/manish-sharma.jpg',
+      },
+    ],
+  },
+  {
+    committee: 'Lok Sabha',
+    agenda:
+      'Deliberation on the issue of Women Safety with special emphasis on increasing crime rate against women.',
+    url: '/lok-sabha',
+    eb: [
+      {
+        name: 'Ms. Hitanshi Goel',
+        role: 'Speaker',
+        imageUrl: '/eb/hitanshi-goel.jpeg',
+      },
+      {
+        name: 'Ms. Rashmi Kayat',
+        role: 'Deputy Speaker',
+        imageUrl: '/eb/rashmi-kayat.jpeg',
+      },
+      {
+        name: 'Mr. Hardik Jindal',
+        role: 'Political Advisor',
+        imageUrl: '/eb/hardik-jindal.jpg',
+      },
+    ],
+  },
+  {
+    committee: 'United Nations General Assembly',
+    agenda: 'Deliberation on resolving borderline disputes.',
+    url: '/unga',
+    eb: [
+      {
+        name: 'Mr. Neel Taneja',
+        role: 'Chairperson',
+        imageUrl: '/eb/neel-taneja.jpg',
+      },
+      {
+        name: 'Mr. Siddhant Magon',
+        role: 'Vice Chairperson',
+        imageUrl: '/eb/siddhant-magon.jpeg',
+      },
+      {
+        name: 'Mr. Vanshaj Arora',
+        role: 'Rapporteur',
+        imageUrl: '/eb/vanshaj-arora.jpeg',
       },
     ],
   },
@@ -174,22 +163,28 @@ export function Speakers() {
             <Tab.List className="grid auto-cols-auto grid-flow-col justify-start gap-x-8 gap-y-10 whitespace-nowrap px-4 sm:mx-auto sm:max-w-2xl sm:grid-cols-3 sm:px-0 sm:text-center lg:grid-flow-row lg:grid-cols-1 lg:text-left">
               {({ selectedIndex }) =>
                 days.map((day, dayIndex) => (
-                  <div key={day.date} className="relative lg:pl-8">
-                    <DiamondIcon
+                  <div
+                    key={day.date}
+                    className={clsx(
+                      'relative rounded-2xl border border-red-800 p-3 lg:pl-8',
+                      dayIndex == selectedIndex ? 'bg-sec-text text-white' : ''
+                    )}
+                  >
+                    {/* <DiamondIcon
                       className={clsx(
-                        'absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block',
+                        'absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible pl-4 lg:block',
                         dayIndex === selectedIndex
                           ? 'fill-rose-600 stroke-rose-600'
                           : 'fill-transparent stroke-slate-400'
                       )}
-                    />
+                    /> */}
                     <div className="relative">
                       <div
                         className={clsx(
                           'font-mono text-sm',
                           dayIndex === selectedIndex
-                            ? 'text-rose-600'
-                            : 'text-slate-500'
+                            ? 'text-white'
+                            : 'text-red-800'
                         )}
                       >
                         <Tab className="[&:not(:focus-visible)]:focus:outline-none">
@@ -199,7 +194,12 @@ export function Speakers() {
                       </div>
                       <time
                         dateTime={day.dateTime}
-                        className="mt-1.5 block text-2xl font-semibold tracking-tight text-rose-900"
+                        className={clsx(
+                          'mt-1.5 block text-2xl font-semibold tracking-tight',
+                          dayIndex == selectedIndex
+                            ? 'text-white'
+                            : 'text-rose-900'
+                        )}
                       >
                         {day.date}
                       </time>
@@ -217,8 +217,6 @@ export function Speakers() {
                 unmount={false}
               >
                 <Committees url="/lok-sabha" data={data[i]} />
-
-                {/* <p>Here comes the sun.</p> */}
               </Tab.Panel>
             ))}
           </Tab.Panels>
