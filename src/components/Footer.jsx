@@ -50,7 +50,7 @@ export function Footer() {
           <h5 className="underline">
             <a
               className="flex justify-center "
-              href="https://https://api.whatsapp.com/send?phone=917081994926"
+              href="https://api.whatsapp.com/send?phone=917081994926"
             >
               Devesh Anand Srivastava&nbsp;
               <svg
@@ -71,7 +71,7 @@ export function Footer() {
           <h5 className="flex justify-center underline">
             <a
               className="flex justify-center"
-              href="https://https://api.whatsapp.com/send?phone=918585946154"
+              href="https://api.whatsapp.com/send?phone=918585946154"
             >
               Ritwik Verma&nbsp;
               <svg
