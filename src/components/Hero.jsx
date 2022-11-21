@@ -43,18 +43,21 @@ export default function Hero() {
             Register
           </Button>
           <div className="flex justify-center">
-            <dl className="mt-10 flex flex-col gap-8 sm:mt-16 sm:text-center md:flex-row lg:text-center ">
+            <dl className="mt-10 flex flex-col gap-8 sm:mt-16 sm:text-center lg:text-center ">
               {[
                 ['Committees', '3'],
-                ['People Attending', '150+'],
-                // ['Venue', 'ADGITM, Delhi'],
+                // ['People Attending', '150+'],
+                [
+                  'Venue',
+                  'Dr. Akhilesh Das Gupta Institute Of Technology & Management, New Delhi',
+                ],
                 // ['Location', 'Los Angeles'],
               ].map(([name, value]) => (
                 <div key={name}>
                   <dt className="text-center font-mono text-sm text-red-900">
                     {name}
                   </dt>
-                  <dd className="mt-0.5 text-center text-2xl font-semibold tracking-tight text-pr-text">
+                  <dd className="lg: mt-0.5 text-center text-2xl font-semibold tracking-tight text-pr-text lg:px-32">
                     {value}
                   </dd>
                 </div>
