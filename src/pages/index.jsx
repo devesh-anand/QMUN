@@ -46,13 +46,13 @@ export default function Home() {
         <title>Quintessence Youth Summit</title>
         <meta
           name="description"
-          content="Quint Youth Summit Consists of 3 committes: UNGA, Lok Sabha and AIPPM. It is our utmost pleasure to welcome you to the annual flagship event of Quintessence - The Offical debating Society of ADGITM."
+          content="Quintessence Youth Summit Consists of 3 committes: UNGA, Lok Sabha and AIPPM. It is our utmost pleasure to welcome you to the annual flagship event of Quintessence - The Offical debating Society of ADGITM."
         />
 
         <meta property="og:title" content="Quintessence Youth Summit" />
         <meta
           property="og:description"
-          content="Quint Youth Summit Consists of 3 committes: UNGA, Lok Sabha and AIPPM. It is our utmost pleasure to welcome you to the annual flagship event of Quintessence - The Offical debating Society of ADGITM."
+          content="Quintessence Youth Summit Consists of 3 committes: UNGA, Lok Sabha and AIPPM. It is our utmost pleasure to welcome you to the annual flagship event of Quintessence - The Offical debating Society of ADGITM."
         />
         <meta property="og:image" content="/og.png" />
       </Head>

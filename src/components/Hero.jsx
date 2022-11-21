@@ -47,7 +47,7 @@ export default function Hero() {
               {[
                 ['Committees', '3'],
                 ['People Attending', '150+'],
-                ['Venue', 'ADGITM, Delhi'],
+                // ['Venue', 'ADGITM, Delhi'],
                 // ['Location', 'Los Angeles'],
               ].map(([name, value]) => (
                 <div key={name}>

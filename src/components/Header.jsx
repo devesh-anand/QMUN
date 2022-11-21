@@ -11,13 +11,16 @@ export function Header() {
           <Logo className="h-12 w-auto text-slate-900" />
         </div>
         <div className="order-first -mx-4 flex flex-auto basis-full overflow-x-auto whitespace-nowrap border-b border-blue-600/10 py-4 font-mono text-sm text-pr-text sm:-mx-6 lg:order-none lg:mx-0 lg:basis-auto lg:border-0 lg:py-0">
-          <div className="mx-auto flex items-center gap-4 px-4">
+          <div className="mx-auto flex flex-col items-center gap-4 px-4 md:flex-row">
             <p className="text-lg font-bold">
-              <time dateTime="2022-12-17">17</time>&nbsp;-&nbsp;
-              <time dateTime="2022-12-18">18 of December, 2022</time>
+              <time dateTime="2022-12-17">17th</time>&nbsp;and&nbsp;
+              <time dateTime="2022-12-18">18th of December, 2022</time>
             </p>
-            <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
-            <a href="https://goo.gl/maps/Cnmom52hXyTzMrVF8">
+            <DiamondIcon className="hidden h-1.5 w-1.5 overflow-visible fill-current stroke-current md:flex" />
+            <a
+              className="text-lg font-bold"
+              href="https://goo.gl/maps/Cnmom52hXyTzMrVF8"
+            >
               <p className="flex font-bold underline">
                 ADGITM, Delhi
                 <svg

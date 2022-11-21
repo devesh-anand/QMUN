@@ -8,7 +8,7 @@ const people = [
   // More people...
 ]
 
-export default function Matrix({ heading, data, c1, c2, c3 }) {
+export default function Matrix({ heading, data, c1, c2, c3, c4 }) {
   return (
     <div className="px-4 sm:px-6 lg:px-8">
       <div className="sm:flex sm:items-center">
@@ -48,6 +48,14 @@ export default function Matrix({ heading, data, c1, c2, c3 }) {
                   {c3}
                 </th>
               )}
+              {c4 && (
+                <th
+                  scope="col"
+                  className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                >
+                  {c4}
+                </th>
+              )}
             </tr>
           </thead>
 
@@ -66,6 +74,11 @@ export default function Matrix({ heading, data, c1, c2, c3 }) {
                 <td className="text-md whitespace-nowrap px-3 py-4 text-gray-500">
                   {i.party_name}
                 </td>
+                {c4 && (
+                  <td className="text-md whitespace-nowrap px-3 py-4 text-gray-500">
+                    {i.Cabinet}
+                  </td>
+                )}
               </tr>
             ))}
           </tbody>

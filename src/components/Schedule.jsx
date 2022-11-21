@@ -248,7 +248,7 @@ export function Schedule() {
             Here&apos;s the schedule for the two days (17th and 18th December):
           </h2>
           {/* <p className="mt-4 font-display text-2xl tracking-tight text-sec-text">
-            Quint Youth Summit is a 2-day event.
+            Quintessence Youth Summit is a 2-day event.
           </p> */}
         </div>
       </Container>

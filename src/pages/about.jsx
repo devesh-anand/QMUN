@@ -56,8 +56,8 @@ function about() {
         <p>
           Members of Quintessence collectively have achieved over 25+ awards
           that too, in the past six months. Quintessence was featured on{' '}
-          <span className="underline">NDTV</span>
-          and has also collaborated with{' '}
+          <span className="underline">NDTV</span>&nbsp; and has also
+          collaborated with{' '}
           <span className="underline">
             Sanjeev Dawar Classes, Students For Liberty, UNIC, Horcrux Labs and
             GD Salwan Public School

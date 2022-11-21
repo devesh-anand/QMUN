@@ -149,8 +149,8 @@ export function Speakers() {
             Committees
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-rose-900">
-            Quint Youth Summit comprises of 3 committees this year. The details
-            are mentioned below:
+            Quintessence Youth Summit comprises of 3 committees this year. The
+            details are mentioned below:
           </p>
         </div>
         <Tab.Group
