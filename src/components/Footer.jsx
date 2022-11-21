@@ -3,7 +3,7 @@ import { Logo } from '@/components/Logo'
 const navigation = [
   {
     name: 'Facebook',
-    href: 'https://www.facebook.com/qdebsoc/',
+    href: 'https://www.facebook.com/qmunofficial',
     icon: (props) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
@@ -16,7 +16,7 @@ const navigation = [
   },
   {
     name: 'Instagram',
-    href: 'https://www.instagram.com/quintessence_adgitm/',
+    href: 'https://www.instagram.com/qys_22/',
     icon: (props) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
