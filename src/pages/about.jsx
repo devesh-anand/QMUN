@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+import PastConferences from '@/components/PastConferences'
 
 function about() {
   return (
@@ -66,6 +67,7 @@ function about() {
         </p>
         <br />
       </div>
+      <PastConferences />
       <Footer />
     </div>
   )

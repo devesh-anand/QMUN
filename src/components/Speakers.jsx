@@ -84,7 +84,7 @@ let data = [
       },
       {
         name: 'Mr. Siddhant Magon',
-        role: 'Vice Chairperson',
+        role: 'Co-Chairperson',
         imageUrl: '/eb/siddhant-magon.jpeg',
       },
       {
@@ -170,14 +170,6 @@ export function Speakers() {
                       dayIndex == selectedIndex ? 'bg-sec-text text-white' : ''
                     )}
                   >
-                    {/* <DiamondIcon
-                      className={clsx(
-                        'absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible pl-4 lg:block',
-                        dayIndex === selectedIndex
-                          ? 'fill-rose-600 stroke-rose-600'
-                          : 'fill-transparent stroke-slate-400'
-                      )}
-                    /> */}
                     <div className="relative">
                       <div
                         className={clsx(
