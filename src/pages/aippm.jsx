@@ -75,7 +75,7 @@ const portfolios = [
     serial: 12,
     name: 'Piyush Goyal',
     party_name: 'BJP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 13,
@@ -123,7 +123,7 @@ const portfolios = [
     serial: 20,
     name: 'Sambit Patra',
     party_name: 'BJP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 21,
@@ -255,7 +255,7 @@ const portfolios = [
     serial: 42,
     name: 'Nitish Kumar',
     party_name: 'JDU',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 43,
@@ -303,7 +303,7 @@ const portfolios = [
     serial: 50,
     name: 'Y.s. Jagan Mohan Reddy',
     party_name: 'YSR CONGRESS',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 51,
@@ -345,7 +345,7 @@ const portfolios = [
     serial: 57,
     name: 'Harsimrat Kaur Badal',
     party_name: 'SAD',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 58,

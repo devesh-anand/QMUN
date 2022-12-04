@@ -33,10 +33,10 @@ export default function PastConferences() {
             <Image src="/prev-conf/4.jpg" width={720} height={480} />
             {/* <p className="legend">Legend 1</p> */}
           </div>
-          <div>
+          {/* <div>
             <Image src="/prev-conf/5.jpg" width={720} height={480} />
-            {/* <p className="legend">Legend 1</p> */}
-          </div>
+            <p className="legend">Legend 1</p>
+          </div> */}
         </Carousel>
       </div>
     </div>

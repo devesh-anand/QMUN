@@ -27,18 +27,18 @@ const portfolios = [
   },
   {
     serial: 5,
-    country: 'azerbaijan',
+    country: 'Azerbaijan',
     alloted: 0,
   },
   {
     serial: 6,
     country: 'Bangladesh',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 7,
     country: 'Belarus',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 8,
@@ -58,7 +58,7 @@ const portfolios = [
   {
     serial: 11,
     country: 'Canada',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 12,
@@ -103,7 +103,7 @@ const portfolios = [
   {
     serial: 20,
     country: 'Egypt',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 21,
@@ -133,7 +133,7 @@ const portfolios = [
   {
     serial: 26,
     country: 'Ghana',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 27,
@@ -213,7 +213,7 @@ const portfolios = [
   {
     serial: 42,
     country: 'Kuwait',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 43,
@@ -223,7 +223,7 @@ const portfolios = [
   {
     serial: 44,
     country: 'Lebanon',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 45,
@@ -388,7 +388,7 @@ const portfolios = [
   {
     serial: 77,
     country: 'Somalia',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 78,

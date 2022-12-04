@@ -44,14 +44,14 @@ const portfolios = [
     serial: 6,
     members: 'Kiren Rijiju',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: 'Minister of Law and Justice',
   },
   {
     serial: 7,
     members: 'Anurag Thakur',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet:
       'Minister of Sports, Youth Affairs and Minister of Information and Broadcasting',
   },
@@ -347,7 +347,7 @@ const portfolios = [
     serial: 49,
     members: 'Hemant Shriram',
     party_name: 'Shiv Sena',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -452,7 +452,7 @@ const portfolios = [
     serial: 64,
     members: 'Ajay Kumar Mandal',
     party_name: 'Janata Dal(u)',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -480,7 +480,7 @@ const portfolios = [
     serial: 67,
     members: 'Chandra Sekhar Bellana',
     party_name: 'Ysr Congress',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
