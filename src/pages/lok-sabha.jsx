@@ -102,7 +102,7 @@ const portfolios = [
     serial: 14,
     members: 'Meenakshi Lekhi',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -123,7 +123,7 @@ const portfolios = [
     serial: 17,
     members: 'Poonam Mahajan',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -263,7 +263,7 @@ const portfolios = [
     serial: 37,
     members: 'Rama Devi',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -277,7 +277,7 @@ const portfolios = [
     serial: 39,
     members: 'Gautam Gambhir',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {

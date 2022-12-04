@@ -15,7 +15,7 @@ const portfolios = [
     serial: 2,
     name: 'Amit Shah',
     party_name: 'BJP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 3,
@@ -129,7 +129,7 @@ const portfolios = [
     serial: 21,
     name: 'Manoj Tiwari',
     party_name: 'BJP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 22,
