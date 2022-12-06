@@ -19,10 +19,10 @@ export default function Matrix({ heading, data, c1, c2, c3, c4 }) {
             this matrix once before submitting your choices in google form.
           </p>
 
-          {/* {
+          {
             heading == "Lok Sabha Matrix" && 
-            <p><a href="/">Background Guide</a></p>
-          } */}
+            <p><a href="/lok-sabha.pdf">Background Guide</a></p>
+          }
           {heading == 'AIPPM Matrix' && (
             <p>
               <a href="/aippm.pdf">Background Guide</a>

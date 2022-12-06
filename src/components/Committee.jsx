@@ -35,6 +35,15 @@ export default function Committee({ data }) {
             </svg>
           </button>
         </Link>
+
+        <Link href={`${data.url}.pdf`} className="flex">
+          <button
+            type="button"
+            className="mx-auto inline-flex items-center rounded-md border-2 border-sec-text bg-transparent px-4 py-2 text-sm font-medium text-pr-text shadow-sm hover:bg-sec-text hover:text-white focus:bg-sec-text focus:text-white focus:outline-none focus:ring-2 focus:ring-sec-text focus:ring-offset-2"
+          >
+            Background Guide
+          </button>
+        </Link>
       </div>
       <div className="flex flex-col items-center">
         <h3 className="py-4 text-xl font-semibold text-sec-text">
