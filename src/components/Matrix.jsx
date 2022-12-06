@@ -18,6 +18,21 @@ export default function Matrix({ heading, data, c1, c2, c3, c4 }) {
             Portfolios marked by red are already alloted. Make sure to check
             this matrix once before submitting your choices in google form.
           </p>
+
+          {/* {
+            heading == "Lok Sabha Matrix" && 
+            <p><a href="/">Background Guide</a></p>
+          } */}
+          {heading == 'AIPPM Matrix' && (
+            <p>
+              <a href="/aippm.pdf">Background Guide</a>
+            </p>
+          )}
+          {heading == 'UNGA Matrix' && (
+            <p>
+              <a href="/unga.pdf">Background Guide</a>
+            </p>
+          )}
         </div>
       </div>
       <div className="-mx-4 mt-8 overflow-auto shadow ring-1 ring-black ring-opacity-5 sm:-mx-6 md:mx-0 md:rounded-lg">

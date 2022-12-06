@@ -16,7 +16,7 @@ const portfolios = [
     serial: 2,
     members: 'Rajnath Singh',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: 'Minister of Defence',
   },
   {
@@ -470,13 +470,6 @@ const portfolios = [
     Cabinet: '',
   },
   {
-    serial: '',
-    members: '',
-    party_name: '',
-    alloted: 0,
-    Cabinet: '',
-  },
-  {
     serial: 67,
     members: 'Chandra Sekhar Bellana',
     party_name: 'Ysr Congress',
@@ -494,6 +487,13 @@ const portfolios = [
     serial: 69,
     members: 'Agatha K Sangma',
     party_name: "National People's Party",
+    alloted: 0,
+    Cabinet: '',
+  },
+  {
+    serial: 70,
+    members: 'Nabha Hira Kumar Sarania',
+    party_name: 'Independent Candidate',
     alloted: 0,
     Cabinet: '',
   },

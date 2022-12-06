@@ -395,6 +395,12 @@ const portfolios = [
     party_name: 'BRS',
     alloted: 0,
   },
+  {
+    serial: 66,
+    members: 'Nabha Hira Kumar Sarania',
+    party_name: 'Independent Candidate',
+    alloted: 0,
+  },
 ]
 
 const Aippm = () => {
