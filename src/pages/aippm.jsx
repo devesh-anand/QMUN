@@ -21,7 +21,7 @@ const portfolios = [
     serial: 3,
     name: 'Rajnath Singh',
     party_name: 'BJP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 4,
@@ -189,7 +189,7 @@ const portfolios = [
     serial: 31,
     name: 'Shashi Tharoor',
     party_name: 'INC',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 32,
@@ -297,7 +297,7 @@ const portfolios = [
     serial: 49,
     name: 'Sitaram Yechury',
     party_name: 'CPI(M)',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 50,

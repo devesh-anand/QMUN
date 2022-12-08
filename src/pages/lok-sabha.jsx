@@ -109,7 +109,7 @@ const portfolios = [
     serial: 15,
     members: 'Manoj Tiwari',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -284,7 +284,7 @@ const portfolios = [
     serial: 40,
     members: 'Navneet Ravi Rana',
     party_name: 'Independent',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -298,7 +298,7 @@ const portfolios = [
     serial: 42,
     members: 'Shashi Tharoor',
     party_name: 'Indian National Congress',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -466,7 +466,7 @@ const portfolios = [
     serial: 66,
     members: 'Anupriya Patel',
     party_name: 'Apna Dal (S)',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -494,7 +494,7 @@ const portfolios = [
     serial: 70,
     members: 'Nabha Hira Kumar Sarania',
     party_name: 'Independent Candidate',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
 ]
