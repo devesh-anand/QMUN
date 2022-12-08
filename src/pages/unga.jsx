@@ -243,7 +243,7 @@ const portfolios = [
   {
     serial: 48,
     country: 'Morocco',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 49,
@@ -278,7 +278,7 @@ const portfolios = [
   {
     serial: 55,
     country: 'Niger',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 56,
@@ -288,7 +288,7 @@ const portfolios = [
   {
     serial: 57,
     country: 'Oman',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 58,
@@ -333,7 +333,7 @@ const portfolios = [
   {
     serial: 66,
     country: 'Qatar',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 67,
@@ -363,7 +363,7 @@ const portfolios = [
   {
     serial: 72,
     country: 'Senegal',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 73,
@@ -413,7 +413,7 @@ const portfolios = [
   {
     serial: 82,
     country: 'Sweden',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 83,
@@ -508,7 +508,7 @@ const portfolios = [
   {
     serial: 101,
     country: 'Zambia',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 102,
