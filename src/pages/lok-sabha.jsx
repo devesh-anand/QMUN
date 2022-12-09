@@ -326,7 +326,7 @@ const portfolios = [
     serial: 46,
     members: 'Geeta Kora',
     party_name: 'Indian National Congress',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -361,7 +361,7 @@ const portfolios = [
     serial: 51,
     members: 'Chandra Sekhar',
     party_name: 'Biju Janata Dal',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
