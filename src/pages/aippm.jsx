@@ -39,19 +39,19 @@ const portfolios = [
     serial: 6,
     name: 'Smriti Irani',
     party_name: 'BJP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 7,
     name: 'S. Jaishankar',
     party_name: 'BJP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 8,
     name: 'Nitin Gadkari',
     party_name: 'BJP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 9,
@@ -87,7 +87,7 @@ const portfolios = [
     serial: 14,
     name: 'J.p. Nadda',
     party_name: 'BJP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 15,
@@ -171,7 +171,7 @@ const portfolios = [
     serial: 28,
     name: 'Sonia Gandhi',
     party_name: 'INC',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 29,
@@ -201,7 +201,7 @@ const portfolios = [
     serial: 33,
     name: 'Adhir Ranjan Chowdhury',
     party_name: 'INC',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 34,
@@ -243,7 +243,7 @@ const portfolios = [
     serial: 40,
     name: 'Mahua Moitra',
     party_name: 'TMC',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 41,

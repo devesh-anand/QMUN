@@ -37,7 +37,7 @@ const portfolios = [
     serial: 5,
     members: 'Smriti Irani',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: 'Minister of Women and Child Development',
   },
   {
@@ -333,7 +333,7 @@ const portfolios = [
     serial: 47,
     members: 'Mahua Moitra',
     party_name: 'Trinamool Congress',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -410,7 +410,7 @@ const portfolios = [
     serial: 58,
     members: 'A Raja',
     party_name: 'Dravida Munnetra Kazhagam',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {

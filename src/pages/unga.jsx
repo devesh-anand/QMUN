@@ -28,7 +28,7 @@ const portfolios = [
   {
     serial: 5,
     country: 'Azerbaijan',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 6,
@@ -158,7 +158,7 @@ const portfolios = [
   {
     serial: 31,
     country: 'Iran',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 32,
@@ -323,7 +323,7 @@ const portfolios = [
   {
     serial: 64,
     country: 'Poland',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 65,
@@ -348,7 +348,7 @@ const portfolios = [
   {
     serial: 69,
     country: 'Russian Federation',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 70,
@@ -478,7 +478,7 @@ const portfolios = [
   {
     serial: 95,
     country: 'United States of America',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 96,
