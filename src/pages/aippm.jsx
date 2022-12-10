@@ -15,7 +15,7 @@ const portfolios = [
     serial: 2,
     name: 'Amit Shah',
     party_name: 'BJP',
-    alloted: 1,
+    alloted: 0,
   },
   {
     serial: 3,
@@ -399,7 +399,7 @@ const portfolios = [
     serial: 66,
     members: 'Nabha Hira Kumar Sarania',
     party_name: 'Independent Candidate',
-    alloted: 0,
+    alloted: 1,
   },
 ]
 
