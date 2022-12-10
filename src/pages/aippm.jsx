@@ -9,7 +9,7 @@ const portfolios = [
     serial: 1,
     name: 'Narendra Modi',
     party_name: 'BJP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 2,
@@ -141,7 +141,7 @@ const portfolios = [
     serial: 23,
     name: 'Kirron Kher',
     party_name: 'BJP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 24,
@@ -183,7 +183,7 @@ const portfolios = [
     serial: 30,
     name: 'Gaurav Gogoi',
     party_name: 'INC',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 31,
@@ -225,7 +225,7 @@ const portfolios = [
     serial: 37,
     name: 'Manish Sisodia',
     party_name: 'AAP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 38,

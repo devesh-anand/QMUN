@@ -30,7 +30,7 @@ const portfolios = [
     serial: 4,
     members: 'Nitin Gadkari',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: 'Minister for Road Transport & Highway',
   },
   {
@@ -116,7 +116,7 @@ const portfolios = [
     serial: 16,
     members: 'Tejasvi Surya',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -137,14 +137,14 @@ const portfolios = [
     serial: 19,
     members: 'Rajyavardhan Singh Rathore',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
     serial: 20,
     members: 'Hema Malini',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -389,7 +389,7 @@ const portfolios = [
     serial: 55,
     members: 'Asaduddin Owaisi',
     party_name: 'All India Majlis-e-ittehadul-muslimeen',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {

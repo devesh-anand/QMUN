@@ -7,7 +7,7 @@ import Navbar from '@/components/Navbar'
 const portfolios = [
   {
     serial: 1,
-    country: 'Algeria',
+    country: 'Afghanistan',
     alloted: 0,
   },
   {
@@ -123,7 +123,7 @@ const portfolios = [
   {
     serial: 24,
     country: 'French Republic',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 25,
@@ -143,7 +143,7 @@ const portfolios = [
   {
     serial: 28,
     country: 'Iceland',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 29,
@@ -418,7 +418,7 @@ const portfolios = [
   {
     serial: 83,
     country: 'Switzerland',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 84,
@@ -433,7 +433,7 @@ const portfolios = [
   {
     serial: 86,
     country: 'Tanzania',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 87,
@@ -453,7 +453,7 @@ const portfolios = [
   {
     serial: 90,
     country: 'Turkmenistan',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 91,
@@ -468,7 +468,7 @@ const portfolios = [
   {
     serial: 93,
     country: 'Ukraine',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 94,
