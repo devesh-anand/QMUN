@@ -27,7 +27,7 @@ const portfolios = [
     serial: 4,
     name: 'Yogi Adityanath',
     party_name: 'BJP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 5,
