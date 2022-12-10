@@ -15,7 +15,7 @@ const portfolios = [
     serial: 2,
     name: 'Amit Shah',
     party_name: 'BJP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 3,
@@ -57,7 +57,7 @@ const portfolios = [
     serial: 9,
     name: 'Ravi Shankar Prasad',
     party_name: 'BJP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 10,
@@ -165,7 +165,7 @@ const portfolios = [
     serial: 27,
     name: 'Rahul Gandhi',
     party_name: 'INC',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 28,
@@ -279,7 +279,7 @@ const portfolios = [
     serial: 46,
     name: 'Asaduddin Owaisi',
     party_name: 'AIMIM',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 47,
@@ -363,7 +363,7 @@ const portfolios = [
     serial: 60,
     name: 'Tejasvi Yadav',
     party_name: 'RJD',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 61,

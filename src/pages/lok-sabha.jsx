@@ -179,7 +179,7 @@ const portfolios = [
     serial: 25,
     members: 'Maneka Gandhi',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -305,21 +305,21 @@ const portfolios = [
     serial: 43,
     members: 'Sonia Gandhi',
     party_name: 'Indian National Congress',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
     serial: 44,
     members: 'Adhir Ranjan Chowdhary',
     party_name: 'Indian National Congress',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
     serial: 45,
     members: 'Gaurav Gogoi',
     party_name: 'Indian National Congress',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {

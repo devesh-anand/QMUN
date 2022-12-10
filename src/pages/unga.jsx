@@ -18,7 +18,7 @@ const portfolios = [
   {
     serial: 3,
     country: 'Australia',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 4,
@@ -48,7 +48,7 @@ const portfolios = [
   {
     serial: 9,
     country: 'Bolivia',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 10,
@@ -118,7 +118,7 @@ const portfolios = [
   {
     serial: 23,
     country: 'Finland',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 24,
@@ -228,7 +228,7 @@ const portfolios = [
   {
     serial: 45,
     country: 'Mexico',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 46,
@@ -283,7 +283,7 @@ const portfolios = [
   {
     serial: 56,
     country: 'Norway',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 57,
@@ -308,7 +308,7 @@ const portfolios = [
   {
     serial: 61,
     country: "People's Republic of China",
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 62,
@@ -378,7 +378,7 @@ const portfolios = [
   {
     serial: 75,
     country: 'Singapore',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 76,
@@ -448,7 +448,7 @@ const portfolios = [
   {
     serial: 89,
     country: 'Turkey',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 90,
@@ -493,7 +493,7 @@ const portfolios = [
   {
     serial: 98,
     country: 'Venezuela',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 99,
