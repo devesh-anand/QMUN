@@ -261,13 +261,13 @@ const portfolios = [
     serial: 43,
     name: 'Uddhav Thackeray',
     party_name: 'SS',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 44,
     name: 'Sanjay Raut',
     party_name: 'SS',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 45,
