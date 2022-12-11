@@ -195,7 +195,7 @@ const portfolios = [
     serial: 32,
     name: 'P. Chidambaram',
     party_name: 'INC',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 33,

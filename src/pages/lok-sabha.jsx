@@ -9,7 +9,7 @@ const portfolios = [
     serial: 1,
     members: 'Narendra Modi',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: 'Prime Minister',
   },
   {
@@ -23,7 +23,7 @@ const portfolios = [
     serial: 3,
     members: 'Amit Shah',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: 'Minister of Home Affairs and Co operation',
   },
   {
@@ -59,28 +59,28 @@ const portfolios = [
     serial: 8,
     members: 'Narendra Singh Tomar',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: 'Minister of Agriculture & Farmers Welfare',
   },
   {
     serial: 9,
     members: 'Dr Virendra Kumar',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: 'Minister of Social Justice and Empowerment.',
   },
   {
     serial: 10,
     members: 'Giriraj Singh',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: 'Minister of Rural Development and Panchayati Raj',
   },
   {
     serial: 11,
     members: 'G Kishan Reddy',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet:
       'Minister of Tourism, Culture and Development of North Eastern Region of India.',
   },
@@ -193,7 +193,7 @@ const portfolios = [
     serial: 27,
     members: 'Harsh Vardhan',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -207,7 +207,7 @@ const portfolios = [
     serial: 29,
     members: 'Rao Inderjit Singh',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -424,7 +424,7 @@ const portfolios = [
     serial: 60,
     members: 'Supriya Sadanand (Supriya Sule)',
     party_name: 'Nationalist Congress Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -480,7 +480,7 @@ const portfolios = [
     serial: 68,
     members: 'Geetha Viswanath Vanya',
     party_name: 'Ysr Congress',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
