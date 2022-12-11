@@ -51,7 +51,7 @@ export default function Hero() {
                   'Venue',
                   'Dr. Akhilesh Das Gupta Institute Of Technology & Management, New Delhi',
                 ],
-                ['Registerations closing on', '10th December, 2022'],
+                ['Registerations extended till', '12th December, 2022'],
                 // ['Location', 'Los Angeles'],
               ].map(([name, value]) => (
                 <div key={name}>
