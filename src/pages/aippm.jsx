@@ -111,7 +111,7 @@ const portfolios = [
     serial: 18,
     name: 'Maneka Gandhi',
     party_name: 'BJP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 19,
@@ -231,7 +231,7 @@ const portfolios = [
     serial: 38,
     name: 'Sanjay Singh',
     party_name: 'AAP',
-    alloted: 0,
+    alloted: 1,
   },
   {
     serial: 39,

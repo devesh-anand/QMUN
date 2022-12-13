@@ -130,7 +130,7 @@ const portfolios = [
     serial: 18,
     members: 'Sunny Deol',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -165,7 +165,7 @@ const portfolios = [
     serial: 23,
     members: 'Ramesh Pokhriyal',
     party_name: 'Bharatiya Janata Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -291,7 +291,7 @@ const portfolios = [
     serial: 41,
     members: 'Rahul Gandhi',
     party_name: 'Indian National Congress',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -340,7 +340,7 @@ const portfolios = [
     serial: 48,
     members: 'Nusrat Jahan',
     party_name: 'Trinamool Congress',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
