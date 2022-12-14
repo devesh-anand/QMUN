@@ -66,9 +66,9 @@ let data = [
         imageUrl: '/eb/rashmi-kayat.jpeg',
       },
       {
-        name: 'Mr. Hardik Jindal',
+        name: 'Ms. Hiya Mongia',
         role: 'Political Advisor',
-        imageUrl: '/eb/hardik-jindal.jpg',
+        imageUrl: '/eb/hiya-mongia.jpeg',
       },
     ],
   },

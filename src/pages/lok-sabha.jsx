@@ -354,7 +354,7 @@ const portfolios = [
     serial: 50,
     members: 'Prataprao Jadhav',
     party_name: 'Shiv Sena',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
@@ -382,7 +382,7 @@ const portfolios = [
     serial: 54,
     members: 'Dr St Hasan',
     party_name: 'Samajwadi Party',
-    alloted: 0,
+    alloted: 1,
     Cabinet: '',
   },
   {
