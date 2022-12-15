@@ -8,102 +8,88 @@ import backgroundImage from '@/images/background.jpg'
 
 const schedule = [
   {
-    date: 'April 4',
-    dateTime: '2022-04-04',
-    summary:
-      'The first day of the conference is focused on dark patterns for ecommerce.',
+    date: 'December 17',
+    dateTime: '2022-12-17',
+    summary: '',
     timeSlots: [
       {
-        name: 'Steven McHail',
+        name: 'Registrations',
         description: 'Not so one-time payments',
-        start: '9:00AM',
+        start: '08:30AM',
         end: '10:00AM',
       },
       {
-        name: 'Jaquelin Isch',
+        name: 'Opening Ceremony',
         description: 'The finer print',
-        start: '10:00AM',
-        end: '11:00AM',
+        start: '09:00AM',
+        end: '09:30AM',
       },
       {
-        name: 'Dianne Guilianelli',
+        name: 'Session 1',
         description: 'Post-purchase blackmail',
-        start: '11:00AM',
-        end: '12:00PM',
+        start: '09:30AM',
+        end: '12:30PM',
       },
       {
         name: 'Lunch',
         description: null,
-        start: '12:00PM',
+        start: '12:30PM',
         end: '1:00PM',
       },
       {
-        name: 'Ronni Cantadore',
+        name: 'Session 2',
         description: 'Buy or die',
         start: '1:00PM',
-        end: '2:00PM',
+        end: '03:00PM',
       },
       {
-        name: 'Erhart Cockrin',
+        name: 'High Tea',
         description: 'In-person cancellation',
-        start: '2:00PM',
-        end: '3:00PM',
+        start: '03:00PM',
+        end: '03:15PM',
       },
       {
-        name: 'Parker Johnson',
+        name: 'Session 3',
         description: 'The pay/cancel switcheroo',
-        start: '3:00PM',
-        end: '4:00PM',
+        start: '3:15PM',
+        end: '05:15PM',
       },
     ],
   },
   {
-    date: 'April 5',
-    dateTime: '2022-04-05',
-    summary:
-      'Next we spend the day talking about deceiving people with technology.',
+    date: 'December 18',
+    dateTime: '2022-12-18',
+    summary: '',
     timeSlots: [
       {
-        name: 'Damaris Kimura',
+        name: 'Breakfast',
         description: 'The invisible card reader',
-        start: '9:00AM',
-        end: '10:00AM',
+        start: '08:30AM',
+        end: '09:00AM',
       },
       {
-        name: 'Ibrahim Frasch',
+        name: 'Session 4',
         description: 'Stealing fingerprints',
-        start: '10:00AM',
-        end: '11:00AM',
-      },
-      {
-        name: 'Cathlene Burrage',
-        description: 'Voting machines',
-        start: '11:00AM',
-        end: '12:00PM',
+        start: '09:00AM',
+        end: '12:30AM',
       },
       {
         name: 'Lunch',
+        description: 'Voting machines',
+        start: '12:30AM',
+        end: '01:00PM',
+      },
+      {
+        name: 'Session 5',
         description: null,
-        start: '12:00PM',
-        end: '1:00PM',
+        start: '01:00PM',
+        end: '03:30PM',
       },
       {
-        name: 'Rinaldo Beynon',
+        name: 'Closing Ceremony',
         description: 'Blackhat SEO that works',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Waylon Hyden',
-        description: 'Turning your audience into a botnet',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Giordano Sagucio',
-        description: 'Fly phishing',
-        start: '3:00PM',
-        end: '4:00PM',
+        start: '03:30PM',
+        end: '04:30PM',
       },
     ],
   },
@@ -136,11 +122,13 @@ function ScheduleTabbed() {
       <Tab.List className="-mx-4 flex gap-x-4 gap-y-10 overflow-x-auto pl-4 pb-4 sm:mx-0 sm:flex-col sm:pb-0 sm:pl-0 sm:pr-8">
         {({ selectedIndex }) =>
           schedule.map((day, dayIndex) => (
-            <div
+            <button
               key={day.dateTime}
               className={clsx(
-                'relative w-3/4 flex-none pr-4 sm:w-auto sm:pr-0',
-                dayIndex !== selectedIndex && 'opacity-70'
+                'relative w-3/4 flex-none pr-4 text-center font-bold sm:w-auto sm:pr-0',
+                'inline-flex items-center rounded-full border-2 border-transparent border-pr-text bg-sec-text px-3 py-1.5 text-xs font-medium text-white shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2',
+                dayIndex !== selectedIndex &&
+                  'border-pr-text bg-transparent text-pr-text opacity-40'
               )}
             >
               <DaySummary
@@ -154,7 +142,7 @@ function ScheduleTabbed() {
                   ),
                 }}
               />
-            </div>
+            </button>
           ))
         }
       </Tab.List>
@@ -175,12 +163,9 @@ function ScheduleTabbed() {
 function DaySummary({ day }) {
   return (
     <>
-      <h3 className="text-2xl font-semibold tracking-tight text-pr-text">
+      <h3 className="text-2xl font-semibold tracking-tight">
         <time dateTime={day.dateTime}>{day.date}</time>
       </h3>
-      <p className="mt-1.5 text-base tracking-tight text-sec-text">
-        {day.summary}
-      </p>
     </>
   )
 }
@@ -197,7 +182,7 @@ function TimeSlots({ day, className }) {
       {day.timeSlots.map((timeSlot, timeSlotIndex) => (
         <li
           key={timeSlot.start}
-          aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} PST`}
+          aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} IST`}
         >
           {timeSlotIndex > 0 && (
             <div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
@@ -205,11 +190,11 @@ function TimeSlots({ day, className }) {
           <h4 className="text-lg font-semibold tracking-tight text-pr-text">
             {timeSlot.name}
           </h4>
-          {timeSlot.description && (
+          {/* {timeSlot.description && (
             <p className="mt-1 tracking-tight text-pr-text">
               {timeSlot.description}
             </p>
-          )}
+          )} */}
           <p className="mt-1 font-mono text-sm text-rose-700">
             <time dateTime={`${day.dateTime}T${timeSlot.start}-08:00`}>
               {timeSlot.start}
@@ -218,7 +203,7 @@ function TimeSlots({ day, className }) {
             <time dateTime={`${day.dateTime}T${timeSlot.end}-08:00`}>
               {timeSlot.end}
             </time>{' '}
-            PST
+            IST
           </p>
         </li>
       ))}
@@ -258,11 +243,8 @@ export function Schedule() {
           <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" />
         </div>
         <Container className="relative">
-          {/* <ScheduleTabbed />
-          <ScheduleStatic /> */}
-          <div className="-mt-12 text-2xl font-semibold text-sec-text">
-            Will be updated soon.
-          </div>
+          <ScheduleTabbed />
+          <ScheduleStatic />
         </Container>
       </div>
     </section>
