@@ -23,7 +23,7 @@ export default function Navbar() {
                   >
                     Home
                   </Link>
-                  <NavDropdown />
+                  {/* <NavDropdown /> */}
                   {/* <Link
                     href="/team"
                     className="inline-flex items-center  border-transparent px-1 pt-1 text-sm font-medium text-sec-text hover:border-gray-300 hover:text-pr-text"

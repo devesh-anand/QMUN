@@ -31,13 +31,13 @@ export default function Hero() {
             <p>
               Presenting to you,{' '}
               <span className="font-semibold text-sec-text">
-                Quintessence Youth Summit 2022
+                Quintessence Youth Summit 2023
               </span>
               .
             </p>
           </div>
           <Button
-            href="https://forms.gle/ddiPQDXygEAQQxhy9"
+            href="https://forms.gle/tA3Ap6H5nubJQS6A6"
             className="mt-10 w-full sm:hidden"
           >
             Register
@@ -45,13 +45,13 @@ export default function Hero() {
           <div className="flex justify-center">
             <dl className="mt-10 flex flex-col gap-8 sm:mt-16 sm:text-center lg:text-center ">
               {[
-                ['Committees', '3'],
+                ['Committees', '5'],
                 // ['People Attending', '150+'],
                 [
                   'Venue',
                   'Dr. Akhilesh Das Gupta Institute Of Technology & Management, New Delhi',
                 ],
-                ['Registerations extended till', '12th December, 2022'],
+                ['Registerations till', '11th November, 2023'],
                 // ['Location', 'Los Angeles'],
               ].map(([name, value]) => (
                 <div key={name}>

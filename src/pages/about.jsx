@@ -11,14 +11,14 @@ function about() {
       <Header />
       <div className="my-auto py-8 px-8 text-left text-xl font-semibold text-gray-700 md:px-40">
         <h1 className="text-center text-3xl text-pr-text">
-          About Quintessence Youth Summit 2022
+          About Quintessence Youth Summit 2023
         </h1>
         <br />
         <p>
-          After successfully organising our annual flagship event of 2021, QMUN,
-          Quintessence - The Official Debating Society of ADGITM is proud to
+          After successfully organising our annual flagship event of 2022, QYS
+          22, Quintessence - The Official Debating Society of ADGITM is proud to
           announce our flagship event of this year, Quintessence Youth Summit
-          2022. This event will be{' '}
+          2023. This event will be{' '}
           <span className="underline">
             an educational simulation of substantive committees that have been
             conceptualized specially to make sure that issues that are very
@@ -30,9 +30,11 @@ function about() {
         <p>The following committees wil be simulated:</p>
         <br />
         <ul className="ml-16 list-decimal">
-          <li>AIPPM</li>
           <li>Lok Sabha</li>
+          <li>AIPPM</li>
           <li>UNGA</li>
+          <li>UNHRC</li>
+          <li>IP</li>
         </ul>
 
         <br />

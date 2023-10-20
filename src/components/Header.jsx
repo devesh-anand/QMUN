@@ -13,8 +13,8 @@ export function Header() {
         <div className="order-first -mx-4 flex flex-auto basis-full overflow-x-auto whitespace-nowrap border-b border-blue-600/10 py-4 font-mono text-sm text-pr-text sm:-mx-6 lg:order-none lg:mx-0 lg:basis-auto lg:border-0 lg:py-0">
           <div className="mx-auto flex flex-col items-center gap-4 px-4 md:flex-row">
             <p className="text-lg font-bold">
-              <time dateTime="2022-12-17">17th</time>&nbsp;and&nbsp;
-              <time dateTime="2022-12-18">18th of December, 2022</time>
+              <time dateTime="2023-11-25">25th</time>&nbsp;and&nbsp;
+              <time dateTime="2023-11-26">26th of November, 2023</time>
             </p>
             <DiamondIcon className="hidden h-1.5 w-1.5 overflow-visible fill-current stroke-current md:flex" />
             <a
@@ -42,7 +42,7 @@ export function Header() {
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button href="https://forms.gle/ddiPQDXygEAQQxhy9">
+          <Button href="https://forms.gle/tA3Ap6H5nubJQS6A6">
             Register Now
           </Button>
         </div>
